@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-900 text-zinc-100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-[Gilroy-Bold];
+}
+
+@layer components {
+  .font-Gilroy-Bold {
+    font-family: Gilroy-Bold;
+  }
+
+  .font-Gilroy-Regular {
+    font-family: Gilroy-Regular;
+  }
+
+  .font-Gilroy-Medium {
+    font-family: Gilroy-Medium;
+  }
+
+  .font-Gilroy-Heavy {
+    font-family: Gilroy-Heavy;
+  }
+
+  .font-Gilroy-Light {
+    font-family: Gilroy-Light;
+  }
+}
